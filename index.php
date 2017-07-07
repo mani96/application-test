@@ -28,24 +28,23 @@
 						?>
 						
 						<tr>    
-						<td><?=$people['id']?></td>
-						<td><?=$people['first_name']?></td>
-						<td><?=$people['last_name']?></td>
-						<td><?=$people['email']?></td>
-						<td><button class="btn btn-primary"onclick="myFunction('<?=$people["first_name"]?>' , '<?=$people["email"]?>')">Click here</button></td>
-						
+							<td><?=$people['id']?></td>
+							<td><?=$people['first_name']?></td>
+							<td><?=$people['last_name']?></td>
+							<td><?=$people['email']?></td>
+							<td><button class="btn btn-primary"onclick="myFunction('<?=$people["first_name"]?>' , '<?=$people["email"]?>')">Click here</button></td>
+							
 						</tr>
 						<?php 
 						}    ?>
-						</tbody>
-						</table>
-						</div>
-						<script>
-						function myFunction(firstname, emial){
-						alert("Firstname: "+firstname+", Email Id: "+emial);
-						}
-						
-						</script>
-						</body>
-						</html>
-												
+				</tbody>
+			</table>
+		</div>
+		<script>
+			function myFunction(firstname, emial){
+				alert("Firstname: "+firstname+", Email Id: "+emial);
+			}
+			
+		</script>
+	</body>
+</html>
